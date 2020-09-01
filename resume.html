@@ -7,7 +7,7 @@
  </head>
 <body id = "Resume">
 
-    <div class = "Section Header">
+    <div id = Contact-Info>
         <h1 id = "Name"> Yash Korde </h1>
         <img id = "Profile Pic" src = "https://i.imgur.com/F2kpoHe.png" width="276" height="368">
         <h3> Contact Information </h3>
@@ -15,16 +15,16 @@
             Address: 7019 Heartleaf Lane, Moseley, VA, 23120  <br>
             Phone Number: (804)300-6238  <br>
             Email: <a href = "mailto:yakorde@vt.edu"> yakorde@vt.edu </a>  <br>
-            <nav> <a href ="https://www.linkedin.com/in/yash-korde-536b8515b/"> LinkedIn </a></nav>  <br>
+            <a id = LinkedIn href ="https://www.linkedin.com/in/yash-korde-536b8515b/"> LinkedIn </a></nav>  <br>
         </address>
     </div>
 
-    <div class = "Section Header" id = "Experience">
-        <h2> Experience </h2>
-        <section>
-        <h4> General Dynamics Mission Systems | Sofware Engineering Intern</h4>
-        <p> May 2020 - August 2020 | Chantilly, VA</p>
-        <ul>
+    <div id = "Experience">
+        <h2 class = "Section Header"> Experience </h2>
+        <section id = GDMS>
+        <h4 class = "Job/Title Heading"> General Dynamics Mission Systems | Sofware Engineering Intern</h4>
+        <p class = "Dates of Experience"> May 2020 - August 2020 | Chantilly, VA</p>
+        <ul class = "Job Descriptions">
             <li> Supported the GDMS Nuclear Monitoring Program by incorporating programming techniques and Agile methodology to develop new monitoring tools in support of remote air monitoring equipment. </li>
             <li> Developed a simulator that mimics a Canberra Intelligent Preamplifier microcontroller for Radionuclide Aerosol Sampler/Analyzer (RASA) remote testing. </li>
             <li> Performed extensive research regarding various JavaScript testing services such as cypress.io to use for proprietary RASA data visualization server. </li>
@@ -32,10 +32,10 @@
 
         </ul>
         </section>
-        <section>
-        <h4> Virginia Tech Transportation Institute | Data Reductionist </h4>
-        <p> May 2020 - August 2020 | Blacksburg, VA</p>
-        <ul>
+        <section id = VTTI>
+        <h4 class = "Job/Title Heading"> Virginia Tech Transportation Institute | Data Reductionist </h4>
+        <p class = "Dates of Experience"> May 2020 - August 2020 | Blacksburg, VA</p>
+        <ul class = "Job Descriptions">
             <li> Studied digital video and parametric data collected for various government-sponsored and proprietary transportation research projects to enhance transportation safety and mobility. </li>
             <li> Used a proprietary software program to analyze and document driver behavior and driving conditions under controlled and naturalistic settings.</li>
             <li> Adhered to a high standard of data security and confidentiality while working with data collected from human subjects.</li>
@@ -44,15 +44,15 @@
         </section>
     </div>
 
-    <div class = "Section Header">
-        <h2> Education</h2>
-        <h4> Virginia Tech College of Engineering (Expected Date of Graduation: May 2022)</h4>
-        <p>Bachelor of Science in Computer Science</p>
-        <p> Major: Secure Computer; Minors: Mathematics, Human-Computer Interaction</p>
-        <p> GPA: 3.35 (overall), 3.36 (in-major) </p>
-        <p> Honors: Dean's List</p>
+    <div id = Education>
+        <h2 class = "Section Header"> Education</h2>
+        <h4 id = College> Virginia Tech College of Engineering (Expected Date of Graduation: May 2022)</h4>
+        <p id = Degree>Bachelor of Science in Computer Science</p>
+        <p id = Major/Minor> Major: Secure Computer; Minors: Mathematics, Human-Computer Interaction</p>
+        <p id = GPA> GPA: 3.35 (overall), 3.36 (in-major) </p>
+        <p id = Honors> Honors: Dean's List</p>
         <h5> Coursework </h5>
-        <ul>
+        <ul id = Classes>
             <li> Data Structures and Algorithms </li>
             <li> Introduction to Computer Organization </li>
             <li> Information Security </li>
@@ -62,18 +62,18 @@
         </ul>
     </div>
 
-    <div class = "Section Header">
-        <h2> Projects </h2>
+    <div>
+        <h2 class = "Section Header"> Projects </h2>
         <section id = Classroom.AI>
-            <h4> Classroom.AI | Project Developer </h4>
-            <ul>
+            <h4 class = ProjectNameandPosition> Classroom.AI | Project Developer </h4>
+            <ul class = "Project Description">
                 <li> Used python frameworks such as NumPy and Pandas, to wrangle, refine, and interpret a large dataset, which was based off classroom learning data.</li>
                 <li> Found significant correlations between data by utilizing statistical concepts such as Bayes theorem and normal distribution model.</li>
             </ul>
         </section>
         <section id = NFL>
-            <h4> Refining NFL Scheduling | Author </h4>
-            <ul>
+            <h4 class = ProjectNameandPosition> Refining NFL Scheduling | Author </h4>
+            <ul class = "Project Description">
                 <li> Used fundamental concepts of applied combinatorics and graph theory, such as distributions and Hamiltonian paths and circuits to optimize the NFL scheduling system to reduce costs and increase efficiency. </li>
                 <li> Wrote a professional research paper presenting and summarizing findings, with intent to publish in an undergraduate mathematics research journal.</li>
             </ul>
@@ -81,11 +81,11 @@
         </section>
     </div>
 
-    <div class = "Section Header">
-        <h2> Skills </h2>
+    <div>
+        <h2 class = "Section Header"> Skills </h2>
         <section id = Programming>
             <h4> Programming </h4>
-            <ul>
+            <ul id = ProgrammingLanguages>
                 <li> Java </li>
                 <li> python </li>
                 <li> C/C++ </li>
@@ -97,7 +97,7 @@
         </section>
         <section id = Tools>
             <h4> Tools and Technologies </h4>
-            <ul>
+            <ul id = ToolsandTech>
                 <li> Git </li>
                 <li> Linux (CentOS) </li>
                 <li> Jenkins </li>
@@ -112,9 +112,9 @@
         </section>
     </div>
 
-    <div class = "Section Header">
-        <h2> Activites</h2>
-        <ul>
+    <div>
+        <h2 class = "Section Header"> Activites</h2>
+        <ul id = Activities>
             <li> Upcoming Nuclear Propulsion Officer VIP program candidate </li>
             <li> President and Co-Founder of Indian Undergraduate Basketball </li>
             <li> Society of Hispanic Professional Engineers Member </li>
