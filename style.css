@@ -19,12 +19,16 @@ section{
     border-style: solid;
     border-color: #e1b382;
     background-color: #2d545e;
+    
 }
 
 .section-one{
     float: left;
+    height: 300px;
+    
 }
 
 .section-two{
-    float: left;
+    float: right;
+    height: 300px;
 }
