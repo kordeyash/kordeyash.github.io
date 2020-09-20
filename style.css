@@ -24,11 +24,11 @@ section{
 
 .section-one{
     float: left;
-    height: 300px;
+    min-height: 300px;
     
 }
 
 .section-two{
     float: right;
-    height: 300px;
+    min-height: 300px;
 }
