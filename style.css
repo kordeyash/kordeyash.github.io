@@ -3,7 +3,8 @@
     color: #e1b382;
 }
 
-#section-header{
+.section-header{
     background-color: #12343b;
     color: #c89666;
+    text-align: center;
 }
