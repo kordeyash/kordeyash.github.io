@@ -3,7 +3,7 @@
     color: #e1b382;
 }
 
-.section-header{
+h2.section-header{
     background-color: #12343b;
     color: #c89666;
     text-align: center;
@@ -13,6 +13,18 @@ a{
     color:white;
 }
 
-h1{
-    font-size: larger;
+section{
+    box-sizing: border-box;
+    width: 50%; 
+    border-style: solid;
+    border-color: #e1b382;
+    background-color: #2d545e
+}
+
+.section-one{
+    float: left;
+}
+
+.section-two{
+    float: left;
 }
