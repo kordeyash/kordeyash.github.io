@@ -23,6 +23,14 @@ section{
     
 }
 
+#activites{
+    box-sizing: border-box;
+    width: 100%; 
+    border-style: solid;
+    border-color: #e1b382;
+    background-color: #2d545e;
+}
+
 .section-one{
     float: left;
     
