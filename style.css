@@ -7,6 +7,7 @@ h2.section-header{
     background-color: #12343b;
     color: #c89666;
     text-align: center;
+    
 }
 
 a{
@@ -24,11 +25,11 @@ section{
 
 .section-one{
     float: left;
-    min-height: 300px;
+    
     
 }
 
 .section-two{
     float: right;
-    min-height: 300px;
+    
 }
