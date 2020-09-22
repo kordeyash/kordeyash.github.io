@@ -60,10 +60,20 @@ nav{
 
 body{
     padding-top:55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img{
     
-    flex: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
