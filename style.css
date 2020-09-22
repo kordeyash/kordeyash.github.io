@@ -31,6 +31,11 @@ section{
     background-color: #2d545e;
 }
 
+div.divboxes{
+    display: flex;
+    align-items: stretch;
+}
+
 .section-one{
     float: left;
     
