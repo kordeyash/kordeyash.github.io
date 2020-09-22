@@ -22,6 +22,12 @@ section{
     
 }
 
+#lonesome{
+    width: 100%;
+    border-style: solid;
+    border-color: #e1b382;
+    background-color: #2d545e;
+}
 
 
 div.divboxes{
