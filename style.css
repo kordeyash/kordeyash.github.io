@@ -41,12 +41,12 @@ div.divboxes{
 .section-one{
     float: left;
     
-    
+     /*pushes section to the left*/
 }
 
 .section-two{
     float: right;
-    
+    /*pushes section to the right*/
 }
 
 nav{
