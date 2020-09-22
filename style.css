@@ -6,8 +6,7 @@
 h2.section-header{
     background-color: #12343b;
     color: #c89666;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 a{
@@ -23,13 +22,7 @@ section{
     
 }
 
-#activites{
-    box-sizing: border-box;
-    width: 100%; 
-    border-style: solid;
-    border-color: #e1b382;
-    background-color: #2d545e;
-}
+
 
 div.divboxes{
     display: flex;
