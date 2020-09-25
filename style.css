@@ -65,7 +65,8 @@ nav{
     color: #c89666;
     padding-bottom: 5px;
     text-align: center;
-    /*blocks heading for each section by design*/
+    font-style: oblique;
+    /*creates banner and blocks heading for each section by design*/
 }
 
 body{
