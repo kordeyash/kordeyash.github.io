@@ -86,7 +86,9 @@ img{
 }
 h1{
     text-align: center;
-    /*aligns my name*/
+    font-style: normal;
+    font-size: xx-large;
+    /*aligns my name and makes it larger and normal*/
 }
 
 h1,h2,h3,h4,h5,h6{
