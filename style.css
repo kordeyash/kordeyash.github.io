@@ -1,12 +1,15 @@
 #resume{
     background-color: #2d545e;
     color: #e1b382;
+
+    /*changes entire site background and font color*/
 }
 
 h2.section-header{
     background-color: #12343b;
     color: #c89666;
     text-align: center;  
+    /*centers section headers and changes background and font color*/
 }
 
 a{
@@ -20,7 +23,8 @@ section{
     border-color: #e1b382;
     background-color: #2d545e;
     padding: 1%
-    
+    /*creates every box to shift left and right to create two columns*/
+
 }
 
 #activites-section{ 
@@ -30,12 +34,15 @@ section{
     border-color: #e1b382;
     background-color: #2d545e;
     padding: 1%;
+
+    /*creates box for activites sections*/
 }
 
 
 div.divboxes{
     display: flex;
     align-items: stretch;
+    /*makes all sections boxes same height and width*/
 }
 
 .section-one{
@@ -63,6 +70,7 @@ nav{
 body{
     padding-top:100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*changes paragraph style to sans serif*/
 }
 
 img{
@@ -73,12 +81,15 @@ img{
     max-width:100%; 
     width: 50%;
     height: auto;
+    /*allows image to be centered and scaled*/
 }
 h1{
     text-align: center;
+    /*aligns my name*/
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /*makes all header fonts serif*/
 }
 
