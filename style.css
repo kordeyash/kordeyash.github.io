@@ -62,13 +62,13 @@ nav{
     top: 0;
     background-color: #12343b;
     color: #c89666;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
     /*blocks heading for each section by design*/
 }
 
 body{
-    padding-top:100px;
+    padding-top:95px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*changes paragraph style to sans serif*/
 }
